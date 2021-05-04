@@ -17,6 +17,8 @@
  *                   e) void heapExtractMax(float * array, int heap_size)
  *                   f) void increaseValue(float * array, int index, float newValue)
  *    7). void quickSort(float * array, int array_length)
+ *    8). void countingSort(int * array, int array_length)
+ *    9).
  */
 
 #ifndef PROJECT2_TOOLS_H
@@ -105,8 +107,13 @@
 #include "Tools/quickSort.h"
 
 /*
- *
+ * The below header file contains the following function:
+ * void countingSort(int * array, int array_length)
+ * It runs in linear time.
+ * It takes an array and array length as input
+ * and sorts the array.
+ * The array must be integer valued with non-negative numbers.
  */
-#include "Tools/linearTimeSorters.h"
+#include "Tools/countingSort.h"
 
 #endif //PROJECT2_TOOLS_H
